@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Results summary component</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS  link-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- How to use the local data json file to populate the content dynamically -->
+
+    <div class="container">
+      <div class="card">
+        <div
+          class="result-section | align-center flex-group"
+          data-flex-direction="column"
+        >
+          <h2 class="heading-2" data-low-opacity>Your Result</h2>
+
+          <div class="score | align-center spacer-small">
+            <span>76</span>
+            <p data-low-opacity>of 100</p>
+          </div>
+
+          <div class="spacer-small">
+            <h1 class="heading-1">Great</h1>
+            <p
+              class="align-center spacer-small"
+              data-max-width
+              data-low-opacity
+            >
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+
+        <div class="summary-section | flex-group" data-flex-direction="column">
+          <h2 class="heading-2" data-inverted>Summary</h2>
+
+          <div>
+            <div
+              class="summary-item | flex-group spacer-small"
+              data-item-bg-color="accent-1"
+            >
+              <div class="flex-group" data-item-color="accent-1">
+                <img src="assets/images/icon-reaction.svg" alt="" />
+                <p>Reaction</p>
+              </div>
+              <div>
+                <div class="score-details">80 <span>/ 100</span></div>
+              </div>
+            </div>
+
+            <div
+              class="summary-item | flex-group spacer-small"
+              data-item-bg-color="accent-2"
+            >
+              <div class="flex-group" data-item-color="accent-2">
+                <img src="assets/images/icon-memory.svg" alt="" />
+                <p>Memory</p>
+              </div>
+              <div>
+                <div class="score-details">92 <span>/ 100</span></div>
+              </div>
+            </div>
+
+            <div
+              class="summary-item | flex-group spacer-small"
+              data-item-bg-color="accent-3"
+            >
+              <div class="flex-group" data-item-color="accent-3">
+                <img src="assets/images/icon-verbal.svg" alt="" />
+                <p>Verbal</p>
+              </div>
+              <div>
+                <div class="score-details">61 <span>/ 100</span></div>
+              </div>
+            </div>
+
+            <div
+              class="summary-item | flex-group spacer-small"
+              data-item-bg-color="accent-4"
+            >
+              <div class="flex-group" data-item-color="accent-4">
+                <img src="assets/images/icon-visual.svg" alt="" />
+                <p>Visual</p>
+              </div>
+              <div>
+                <div class="score-details">72 <span>/ 100</span></div>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn | spacer-small">Continue</button>
+        </div>
+      </div>
+      <div class="coderSeth | spacer-small">
+        Coded by <a href="#">coderSeth</a>.
+      </div>
+    </div>
+  </body>
+</html>
