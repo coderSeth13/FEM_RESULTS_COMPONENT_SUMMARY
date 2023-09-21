@@ -7,7 +7,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - Live Site URL: https://coderseth13.github.io/FEM_RESULTS_COMPONENT_SUMMARY/
 
 ### Platform Links
-- Frontend Mentor :
+- Frontend Mentor : https://www.frontendmentor.io/profile/coderSeth13:
 - Github :
 - LinkedIn : 
 
