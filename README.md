@@ -8,8 +8,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Platform Links
 - Frontend Mentor : https://www.frontendmentor.io/profile/coderSeth13:
-- Github :
-- LinkedIn : 
+- Github: https://github.com/coderSeth13?tab=repositories
 
 ### Screenshot
 
