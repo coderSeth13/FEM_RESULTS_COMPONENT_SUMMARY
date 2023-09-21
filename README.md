@@ -3,7 +3,7 @@
 This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV).
 
 ### Repository Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/coderSeth13/FEM_RESULTS_COMPONENT_SUMMARY.git
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### Platform Links
